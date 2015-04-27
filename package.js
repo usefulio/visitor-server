@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'useful:visitor-server',
-	version: '0.0.1',
+	version: '0.0.2',
 	summary: 'Server-side infrastructure for tracking visitors to your site.',
 	git: '',
 	documentation: 'README.md'
@@ -14,6 +14,7 @@ Package.onUse(function(api) {
 
 	api.use([
 		'mongo'
+		, 'underscore'
 	], 'server');
 
 	// ====== 3RD PARTY PACKAGES =======
