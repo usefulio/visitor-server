@@ -2,7 +2,7 @@ Package.describe({
 	name: 'useful:visitor-server',
 	version: '0.0.2',
 	summary: 'Server-side infrastructure for tracking visitors to your site.',
-	git: '',
+	git: 'https://github.com/usefulio/visitor-server',
 	documentation: 'README.md'
 });
 
